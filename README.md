@@ -27,6 +27,7 @@ Python sample codes and documents about Autonomous vehicle control algorithm. Th
         * [Hybrid A*](#hybrid-a)
         * [D*](#d)
         * [Dijkstra](#dijkstra)
+        * [PSO](#pso)
         * [PRM](#prm)
         * [RRT](#rrt)
         * [Bidirectional RRT*](#bidirectional-rrt)
@@ -132,6 +133,9 @@ Planning with dynamic obstacle replanning
 #### Dijkstra
 Planning(Reduce frames by sampling every nth node to prevent memory exhaustion)  
 ![](src/simulations/path_planning/dijkstra_path_planning/dijkstra_search.gif)  
+#### PSO
+Particle Swarm Optimization  
+![](src/simulations/path_planning/pso_path_planning/pso_search.gif)  
 #### PRM
 Planning  
 ![](src/simulations/path_planning/prm_path_planning/prm_search.gif)    
