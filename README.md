@@ -25,11 +25,17 @@ Python sample codes and documents about Autonomous vehicle control algorithm. Th
         * [A*](#a)
         * [Bidirectional A*](#bidirectional-a)
         * [Hybrid A*](#hybrid-a)
+        * [D*](#d)
         * [Dijkstra](#dijkstra)
         * [PSO](#pso)
+        * [PRM](#prm)
         * [RRT](#rrt)
+        * [Bidirectional RRT*](#bidirectional-rrt)
+        * [RRT*](#rrt-star)
+        * [Informed RRT*](#informed-rrt)
     * [Path Tracking](#path-tracking)
         * [Pure pursuit Path Tracking](#pure-pursuit-path-tracking)
+        * [Adaptive Pure pursuit Path Tracking](#adaptive-pure-pursuit-path-tracking)
         * [Rear wheel feedback Path Tracking](#rear-wheel-feedback-path-tracking)
         * [LQR(Linear Quadratic Regulator) Path Tracking](#lqrlinear-quadratic-regulator-path-tracking)
         * [Stanley steering control Path tracking](#stanley-steering-control-path-tracking)
@@ -121,20 +127,38 @@ Planning
 #### Hybrid A*
 Planning  
 ![](src/simulations/path_planning/astar_hybrid_path_planning/astar_hybrid_search.gif)  
+#### D*
+Planning with dynamic obstacle replanning  
+![](src/simulations/path_planning/dstar_path_planning/dstar_search.gif)  
 #### Dijkstra
 Planning(Reduce frames by sampling every nth node to prevent memory exhaustion)  
 ![](src/simulations/path_planning/dijkstra_path_planning/dijkstra_search.gif)  
 #### PSO
 Particle Swarm Optimization  
 ![](src/simulations/path_planning/pso_path_planning/pso_search.gif)  
-Navigation  
-![](src/simulations/path_planning/pso_path_planning/pso_navigate.gif)  
+#### PRM
+Planning  
+![](src/simulations/path_planning/prm_path_planning/prm_search.gif)    
+#### Elastic Bands
+A* seed path smoothed with Elastic Bands optimisation  
+![](src/simulations/path_planning/elastic_bands_path_planning/elastic_bands_search.gif)  
 #### RRT
 Planning  
 ![](src/simulations/path_planning/rrt_path_planning/rrt_search.gif)  
+#### Bidirectional RRT*
+Planning  
+![](src/simulations/path_planning/rrt_star_bidirectional_path_planning/rrt_star_bidirectional_search.gif)  
+#### RRT*
+Planning  
+![](src/simulations/path_planning/rrt_star_path_planning/rrt_star_search.gif)  
+#### Informed RRT*
+Planning  
+![](src/simulations/path_planning/informed_rrt_star_path_planning/informed_rrt_star_search.gif)  
 ### Path Tracking
 #### Pure pursuit Path Tracking
 ![](src/simulations/path_tracking/pure_pursuit_path_tracking/pure_pursuit_path_tracking.gif)  
+#### Adaptive Pure pursuit Path Tracking
+![](src/simulations/path_tracking/adaptive_pure_pursuit_path_tracking/adaptive_pure_pursuit_path_tracking.gif)  
 #### Rear wheel feedback Path Tracking
 ![](src/simulations//path_tracking/rear_wheel_feedback_tracking/rear_wheel_feedback_tracking.gif)  
 #### LQR(Linear Quadratic Regulator) Path Tracking
